@@ -79,3 +79,7 @@
   # ...
 }
 ```
+# Download the icons file
+```bash
+nix run nixpkgs#wget -- "https://raw.githubusercontent.com/gokcehan/lf/master/etc/icons.example" -O icons
+```
